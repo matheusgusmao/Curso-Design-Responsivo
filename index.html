@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Desenhos, quadrinhos, comics e ilustrações</title>
+		<meta name="description" content="Desenhos de todos os tipos.">
+		<meta name="keywords" content="Agência de desenhos, quadrinhos, comics e ilustrações">
+		<meta name="robots" content="index, follow">
+		<meta name="author" content="">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" href="img/icon.png">
+	</head>
+	<body>
+		<!-- HEADER (CABEÇALHO) -->
+		<header class="cabecalho container">
+			<a href="index.html"><h1 class="logo">Desenhos, quadrinhos, comics e ilustrações</h1></a>
+			<input type="checkbox" id="bt_menu">
+			<label for="bt_menu">&#9776;</label>
+			<nav class="menu">
+				<a class="btn-close"><span style="background: url(img/icon_close.png) right no-repeat; background-size: 56px 56px; padding: 27px 27px 27px; float: right; border-radius: 56px;"></span></a>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Clientes</a></li>
+					<li><a href="#">Serviços</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Quem somos</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>
+		</header>
+		<!-- BANNER -->
+		<div class="banner container">
+			<div class="title">
+				<h2>OUSE INOVAR!</h2>
+				<h3> Proporcionamos aos clientes satisfação total.</h3>
+			</div>
+			<div class="buttons">
+				<button class="btn btn-cadastrar bg-white radius">Cadastrar<span style="background: url(img/icon_cadastrar.png) right no-repeat; background-size: 56px 56px; padding: 27px 27px 27px; float: right; border-radius: 56px;"></span></button>
+				<button class="btn btn-sobre bg-black radius">Sobre<span style="background: url(img/icon_sobre.png) right no-repeat; background-size: 56px 56px; padding: 27px 27px 27px; float: right; border-radius: 56px;"></span></button>
+			</div>
+		</div>
+		<!-- SERVIÇOS -->
+		<main class="servicos container">
+			<article class="servico bg-white radius">
+				<a href="#"><img src="img/criacoes.jpg" alt="Campanhas publicitárias"></a>
+				<div class="inner">
+					<a href="#"> Campanhas Publicitárias </a>
+					<h4>Impressos, VTs e Jingles</h4>
+					<p>Se você está precisando de criação de algum material em específico,
+					conte com a nossa equipe de profissionais. Eles farão toda campanha
+					publicitária, VT, outdoor, folder, anúncio e muito mais pela sua 
+					empresa no mais alto padrão de qualidade.</p>
+				</div>
+			</article>
+			<article class="servico bg-white radius">
+				<a href="#"><img src="img/md.jpg" alt="Marketing Digital"></a>
+				<div class="inner">
+					<a href="#"> Marketing Digital </a>
+					<h4>Administração de Redes Sociais</h4>
+					<p>Como agência de publicidade aplicamos estratégias nos meios
+					digitais para que o seu negócio seja visto por milhões de usuários.
+					O Brasil é o 5º país mais conectado do mundo. Por este motivo, o seu 
+					negócio não pode ficar fora do mercado digital.</p>
+				</div>
+			</article>
+			<article class="servico bg-white radius">
+				<a href="#"><img src="img/cs.jpg" alt="Criação de Sites"></a>
+				<div class="inner">
+					<a href="#"> Criação de Sites </a>
+					<h4> Sites Administráveis </h4>
+					<p>Agora você pode administrar seu site quando e como quiser.<br> 
+					E melhor ainda pois você pode pagar por este serviço, pois 
+					desenvolvemos de forma. Seu site atualizado, com seus últimos 
+					produtos, integração com redes sociais, agora é possível.</p>
+				</div>
+			</article>
+		</main>
+		<!-- NEWSLETTER -->
+		<section class="newsletter container bg-black">
+			<h2> Inscreva-se agora! </h2>
+			<h3> Receba novidades, dicas e muito mais </h3>
+			<form>
+				<input class="bg-black radius" type="email" name="email" placeholder="Seu email">
+				<button class="bg-white radius"> Cadastrar </button>
+			</form>
+		</section>
+		<!-- FOOTER (RODAPÉ) -->
+		<footer class="rodape container">
+			<div class="social-icons">
+				<a href="#"><span style="background: url(img/icon_facebook.png) right no-repeat; background-size: 56px 56px; padding: 27px 27px 27px; float: left; border-radius: 56px;"></a>
+				<a href="#"><span style="background: url(img/icon_twitter.png) right no-repeat; background-size: 56px 56px; padding: 27px 27px 27px; float: left; border-radius: 56px;"></a>
+				<a href="#"><span style="background: url(img/icon_google.png) right no-repeat; background-size: 56px 56px; padding: 27px 27px 27px; float: left; border-radius: 56px;"></a>
+				<a href="#"><span style="background: url(img/icon_instagram.png) right no-repeat; background-size: 56px 56px; padding: 27px 27px 27px; float: left; border-radius: 56px;"></a>
+				<a href="#"><span style="background: url(img/icon_envelope.png) right no-repeat; background-size: 56px 56px; padding: 27px 27px 27px; float: left; border-radius: 56px;"></a>
+			</div>
+			<p class="copyright">
+				Copyright © Desenhos 2019. Todos os direitos reservados. <!-- Símbolo de copyright é feito digitando: Alt + 00169; Símbolo Trademark: Alt + 0153; Símbolo marca registrada: Alt + 0174 -->
+			</p>
+		</footer>
+		
+		<!-- JQUERY -->
+		<script src="js/jquery.js"></script>
+		<script>
+		$("#bt_menu").click(function(){
+			$(".menu").show();
+		});
+		$(".btn-close").click(function(){
+			$(".menu").hide();
+		});
+		</script>
+	</body>
+</html>
